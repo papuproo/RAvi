@@ -1,0 +1,153 @@
+h1{
+  font-size: 25px;
+  margin-right: 30px;
+}
+
+i{
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+body{
+  background-size: 100%;
+  background-image: url("fondo.jpg");
+}
+
+.i1{
+  font-size: 30px;
+  margin-right: 50px;
+}
+
+.menu{
+  color: white;
+  border-radius: 5px;
+  padding: 0px 120px 0px 50px;
+  background-color: #bcb5b4;
+  font-family: 'Open Sans', sans-serif;
+  margin-right: 100px;
+  margin-left: 100px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+}/*Da formato al menu que se
+encuentra en el encabezado
+de todas las páginas*/
+
+.titular{
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}/*Da formato al nombre de
+la página y su slogan, en
+el encabezado de todas
+las páginas*/
+
+.a1{
+  font-size: 20px;
+  margin: 0px;
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+
+.texto{
+  font-size: 50px;
+  margin-left: 2%;
+  text-align: justify;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}/*Da formato a todos los
+subtítulos de todas las páginas*/
+
+.cuerpo{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.cuerpo1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35px;
+  margin-top: 5%;
+  margin-left: 60%;
+}
+
+.menuno{
+  font-size: 25px;
+  margin-top: 3%;
+  font-family: 'Open Sans', sans-serif;
+  list-style-type: circle;
+  margin-left: 5%;
+}
+
+.menudos{
+  font-size: 25px;
+  margin-top: 3%;
+  padding-bottom: 20%;
+  font-family: 'Open Sans', sans-serif;
+  list-style-type: circle;
+  margin-left: 50%;
+}
+
+.I1{
+  border-radius: 5px;
+  margin-left: 60%;
+  max-width: 40%;
+  max-height: 40%;
+}
+
+.des{
+  margin-right: 2%;
+  background-image: url("chilaquiles.jpg");
+  background-size: 45%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.des1{
+  margin-left: 5%;
+  background-image: url("tacosdorados.jpg");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.des2{
+  margin-right: 5%;
+  background-image: url("quesadilla.jpg");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.des3{
+  margin-left: 5%;
+  background-image: url("bizcocho.jpg");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.des4{
+  margin-right: 5%;
+  background-image: url("agua1.jpg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.t1{
+  border-radius: 5px;
+  font-stretch: semi-expanded;
+  padding: 2% 35% 2% 36%;
+  background-color: #bcb5b4;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 2%;
+  text-align: center;
+}
