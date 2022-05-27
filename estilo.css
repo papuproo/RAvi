@@ -1,0 +1,328 @@
+h1{
+  font-size: 20px;
+  margin-right: 3px;
+}
+
+h2{
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+h3{
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 30px;
+}
+
+.i4{
+  margin-right: 50px;
+}
+
+body{
+  background-image: url("fondop.jpg");
+  background-size: 120%;
+}
+
+.menu{
+  color: white;
+  border-radius: 5px;
+  padding: 0% 100% 0% 20%;
+  background-color: #bcb5b4;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 10%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+}/*Da formato al menu que se
+encuentra en el encabezado
+de todas las páginas*/
+
+.titular{
+  margin-top: 0px;
+  margin-right: 20%;
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}/*Da formato al nombre de
+la página y su slogan, en
+el encabezado de todas
+las páginas*/
+
+.texto{
+  margin-left: 2%;
+  text-align: justify;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}/*Da formato a todos los
+subtítulos de todas las páginas*/
+
+.botones{
+  margin-left: 5%;
+  margin-right: 5%;
+} /*Da formato a la sección
+en donde se encuentran los
+botones principales de
+la página Principal*/
+
+.boton{
+  background-color: #bcb5b4;
+  border: none;
+  color: #568400;
+  /*padding: 80px 50px;*/
+  text-align: center;
+  display: inline-block;
+  font-size: 50px;
+  margin: 8px 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}/*Da formato general a
+los botones principales
+de la página Principal*/
+
+.boton1{
+  padding: 8% 4%;
+  background-image: url("dprueba.jpg");
+  background-position: center;
+  background-size: 114%;
+  background-repeat: no-repeat;
+  color: #568400;
+  border: 2px solid #4CAF50;
+}/*Da formato al primer
+boton de los botones
+principales de la página
+Principal*/
+
+.boton1:hover{
+  background-color: #4CAF50;
+  color: white;
+}/*Creación del evento del
+primer boton en Principal*/
+
+.boton2{
+  padding: 8% 6%;
+  background-image: url("cprueba.jpg");
+  background-position: center;
+  background-size: 120%;
+  background-repeat: no-repeat;
+  color: #568400;
+  border: 2px solid #4CAF50;
+}/*Da formato al segundo
+boton de los botones
+principales de la página
+Principal*/
+
+.boton2:hover{
+  background-color: #4CAF50;
+  color: white;
+}/*Creación del evento del
+segundo boton en Principal*/
+
+.boton3{
+  padding: 8% 8%;
+  background-image: url("cenaprueba.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 130%;
+  color:#568400;
+  border: 2px solid #4CAF50;
+}/*Da formato al tercer
+boton de los botones
+principales de la página
+Principal*/
+
+.boton3:hover{
+  background-color: #4CAF50;
+  color: white;
+}/*Creación del evento del
+tercer boton en Principal*/
+
+.boton4{
+  padding: 8% 5%;
+  background-image: url("chiles.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150%;
+  color: #568400;
+  border: 2px solid #4CAF50;
+}/*Da formato al cuarto
+boton de los botones
+principales de la página
+Principal*/
+
+.boton4:hover{
+  background-color: #4CAF50;
+  color: white;
+}/*Creación del evento del
+cuarto boton en Principal*/
+
+.boton5{
+  transition-duration: 0.4s;
+  cursor: pointer;
+  float: left;
+  display: inline-block;
+  margin-left: 5%;
+  padding: 16% 20%;
+  background-image: url("enmolada.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  color: white;
+  border: 2px solid #4CAF50;
+  position: relative;
+  overflow: hidden;
+}
+
+.boton5 span{
+
+  position: relative;
+  z-index: 2;
+  transition: .3s ease all;
+}
+
+.boton5:hover::after{
+  top: 0;
+  opacity: 50%;
+  color: green;
+}/*Creación del evento del
+tercer boton en Principal*/
+
+.boton5::after{
+  content: "";
+width: 100%;
+height: 100%;
+background: #4CAF50;
+position: absolute;
+z-index: 1;
+top: -650px;
+left: 0;
+transition: .3s ease-in-out;
+}
+
+.boton6{
+  transition-duration: 0.4s;
+  cursor: pointer;
+  float: left;
+  display: inline-block;
+  margin-left: 5%;
+  padding: 16% 20%;
+  background-image: url("tacosdorados.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120%;
+  color: green;
+  border: 2px solid #4CAF50;
+  position: relative;
+  overflow: hidden;
+}
+
+.boton6 span{
+
+  position: relative;
+  z-index: 2;
+  transition: .3s ease all;
+}
+
+.boton6:hover::after{
+  top: 0;
+  opacity: 50%;
+  color: green;
+}/*Creación del evento del
+tercer boton en Principal*/
+
+.boton6::after{
+  content: "";
+width: 100%;
+height: 100%;
+background: #4CAF50;
+position: absolute;
+z-index: 1;
+top: -650px;
+left: 0;
+transition: .3s ease-in-out;
+}
+
+.boton7{
+  transition-duration: 0.4s;
+  cursor: pointer;
+  float: left;
+  display: inline-block;
+  margin-left: 5%;
+  padding: 16% 20%;
+  background-image: url("torta.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 120%;
+  color: green;
+  border: 2px solid #4CAF50;
+  position: relative;
+  overflow: hidden;
+}
+
+.boton7 span{
+
+  position: relative;
+  z-index: 2;
+  transition: .3s ease all;
+}
+
+.boton7:hover::after{
+  top: 0;
+  opacity: 50%;
+  color: green;
+}/*Creación del evento del
+tercer boton en Principal*/
+
+.boton7::after{
+  content: "";
+width: 100%;
+height: 100%;
+background: #4CAF50;
+position: absolute;
+z-index: 1;
+top: -650px;
+left: 0;
+transition: .3s ease-in-out;
+}
+
+
+.a1{
+  font-size: 20px;
+  margin: 0px;
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+
+.t1{
+  font-size: 30px;
+  padding-bottom: 0px;
+  margin-bottom: 10%;
+  margin-left: 55%;
+  margin-right: 10%;
+}
+
+.a{
+    color: white;
+  text-align: left;
+  padding: 1% 15% 1% 15%;
+  font-size: 30px;
+  border-radius: 5px;
+  background-color: #bcb5b4;
+  margin-left: 5%;
+  margin-right: 5%;
+}/*Da formato al texto
+de la presentación en
+la página Principal*/
+
+.t2{
+  border-radius: 5px;
+  font-stretch: semi-expanded;
+  padding: 2% 35% 2% 40%;
+  background-color: #bcb5b4;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 2%;
+  text-align: center;
+}
